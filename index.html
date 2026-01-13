@@ -17,7 +17,7 @@
             <div class="nav-container">
                 <div class="logo">
                     <div class="logo-icon"><img src="damane-logo.png"></div>
-                    <div class="logo-main">Damane Services</div>
+                    <div class="logo-main"></div>
                 </div>
     
                 <ul class="nav-menu">
@@ -97,6 +97,167 @@
             </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="services">
+
+  
+        <style>
+ 
+    
+            .services {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: #f5f5f5;
+                padding: 40px 20px;
+            }
+    
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+    
+            h2 {
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+    
+            .service-card {
+                background: white;
+               
+                margin-bottom: 20px;
+                overflow: hidden;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                transition: all 0.3s ease;
+                cursor: pointer;
+                position: relative;
+                height: 120px;
+            }
+    
+            .service-card:hover {
+                box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+                transform: translateY(-2px);
+            }
+    
+            .card-background {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.4;
+                transition: opacity 0.3s ease;
+            }
+    
+            .service-card:hover .card-background {
+                opacity: 0.55;
+            }
+            
+            .card-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.438));
+            }
+    
+            .card-content {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 30px;
+                height: 100%;
+            }
+    
+            .service-title {
+                font-size: 18px;
+                color: white;
+                font-weight: 500;
+                text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            }
+    
+            .expand-button {
+                width: 36px;
+                height: 36px;
+                background:#0a2c6b6f;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 20px;
+                font-weight: 300;
+                transition: all 0.3s ease;
+            }
+    
+            .service-card:hover .expand-button {
+                background: #c82333;
+                transform: rotate(90deg);
+            }
+        </style>
+
+        <div class="container">
+            <h2>Our Services</h2>
+            
+            <div class="service-card">
+                <div class="card-background" style="background-image: url('cctv.webp');"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="service-title">CCTV Installation</div>
+                    <div class="expand-button">→</div>
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <div class="card-background" style="background-image: url('alarm.webp');"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="service-title">24/7 Alarm Services</div>
+                    <div class="expand-button">→</div>
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <div class="card-background" style="background-image: url('fence.webp');"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="service-title">Hence installation</div>
+                    <div class="expand-button">→</div>
+                </div>
+            </div>
+    
+            <div class="service-card">
+                <div class="card-background" style="background-image: url('gate-automation.webp');"></div>
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="service-title">Gate automation</div>
+                    <div class="expand-button">→</div>
+                </div>
+            </div>
+        </div>
+
+
+</section>
 
 </body>
 <script src="scripts.js"></script>
