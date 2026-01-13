@@ -178,3 +178,96 @@ a {
 /* ===== NAVIGATION STYLES ===== */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== FOOTER STYLES ===== */
+/* ===== FOOTER STYLES ===== */
+/* ===== FOOTER STYLES ===== */
+/* ===== FOOTER STYLES ===== */
+/* ===== FOOTER STYLES ===== */
+/* ===== FOOTER STYLES ===== */
+.footer {
+    background:#0a1e44ee;
+    color: white;
+    padding: 3rem 1rem 1.5rem;
+  }
+  
+  .footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .footer-section h3 {
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section p,
+  .footer-section a {
+    color: #d1d5db;
+    line-height: 1.8;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #facc15;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .emergency-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #facc15;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.875rem;
+  }
+  
+  /* ===== RESPONSIVE ===== */
+  @media (min-width: 768px) {
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
