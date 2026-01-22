@@ -24,3 +24,7 @@ mobileLinks.forEach(link => {
         closeIcon.style.display = 'none';
     });
 });
+
+
+
+
